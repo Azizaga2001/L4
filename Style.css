@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 115vh;
+    background: rgb(141, 141, 141);
+    color: black;
+}
+
+.container {
+    height: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    height: 600px;
+    background: rgb(185, 185, 185);
+    border-radius: 40px;
+    display: flex;
+}
+
+.aa {
+    margin-left: 20px;
+}
+
+.ab {
+    margin-right: 20px;
+}
+
+header {
+    height: 35%;
+    background: white;
+    border-radius: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header iconify-icon {
+    font-size: 1.5em;
+}
+
+.profile .img-container img {
+    width: 100%;
+    border-radius: 10px;
+    border: gray solid 1px;
+}
+
+.profile .img-container {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.profile .text-container {
+    width: 70%;
+}
+
+.profile .text-container p {
+    color: gray;
+}
+
+main {
+    height: 151%;
+    margin-top: 25px;
+}
+
+footer {
+    height: 160%;
+    background: white;
+    border-radius: 40px;
+    margin-top: -50px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+ul li:nth-child(2) {
+    border-bottom: 3px solid orange;
+    padding-bottom: 20px;
+}
+
+.my-cards {
+    padding: 20px 0;
+}
+
+.bank-card {
+    background: rgb(174, 113, 0);
+    width: 70%;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.bank-card .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bank-card .name iconify-icon {
+    font-size: 1.5em;
+}
+
+.class-name {
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.sajon-name {
+    font-size: 1em;
+}
+
+.amazon-icon {
+    font-size: 1.5em;
+    margin-left: 70px;
+}
+
+.money {
+    display: flex;
+}
+
+.Platinum-Name {
+    margin-top: -70px;
+    margin-left: 30px;
+}
+
+.card-number {
+    margin-left: 30px;
+}
+
+.money-number {
+    margin-left: 30px;
+}
+
+.master-card-icon {
+    margin-left: 80px;
+    margin-top: -10px;
+    font-size: 2em;
+}
+
+.btn-container {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(38, 199, 129);
+    padding: 10px;
+    background: rgb(50, 132, 54);
+    border-radius: 50%;
+    margin-left: 460px;
+    margin-top: -90px;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-types {
+    margin-top: 10px;
+}
+
+.logos{
+    display: flex;
+}
+
+.h3{
+    display: flex;
+    margin-left: -120px;
+}
+
+.input{
+    display: flex;
+}
+
+.card-types iconify-icon {
+    font-size: 1.2em;
+}
+
+.card-types h3{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -140px;
+}
+
+.card-types input{
+    display: flex;
+    margin-left: 240px;
+    margin-top: -240px;
+}
+
+.Credit{
+    margin-left: -20px;
+    margin-top: 60px;
+}
+
+.apple{
+    margin-left: -20px;
+    margin-top: 120px;
+}
+
+.Googleh3{
+    margin-left: 60px;
+}
+
+.kjdf{
+    align-items: start;
+    justify-content: start;
+}
